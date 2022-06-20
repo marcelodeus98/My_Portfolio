@@ -107,7 +107,8 @@ header .menu ul li a:hover{
 
 .img-perfil{
    border-radius: 50%;
-   padding:1rem ; 
+   padding:1rem ;
+   width: auto; 
 }
 
 .section-project{
