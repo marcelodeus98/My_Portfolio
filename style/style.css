@@ -77,8 +77,6 @@ header .menu ul li a:hover{
     color: black;   
 }
 
-
-
 .main-container{
     height: 100vh;
     width: auto;
@@ -107,6 +105,11 @@ header .menu ul li a:hover{
     margin-bottom: 1rem;
 }
 
+.img-perfil{
+   border-radius: 50%;
+   padding:1rem ; 
+}
+
 .section-project{
     margin-bottom: 100px;
     display: flexbox;
@@ -115,6 +118,10 @@ header .menu ul li a:hover{
 .section-contact{
     display: flexbox;
     padding-top: 2rem;
+}
+
+.logo-link-github{
+    padding: 1rem;
 }
 
 p{
@@ -131,8 +138,12 @@ a{
     margin-top: 20px;
 }
 
+.project-conatiner-img{
+    margin-bottom: 1rem;
+}
+
 h2{
-    margin-top: 0;
+    margin-top: 1rem;
 }
 
 .footer-container{
