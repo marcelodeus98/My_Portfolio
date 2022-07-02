@@ -67,7 +67,7 @@ header .menu ul li a:hover{
 }
 
 .image-parallax {
-    background-image: url("../global/img/image-main.jpg");
+    background-image: url("../img/image-main.jpg");
     background-attachment: fixed;
     background-size: contain;
     background-position: center;
@@ -79,13 +79,14 @@ header .menu ul li a:hover{
     width: auto;
     display:flexbox;
     height: max-content;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
     margin-top: 1rem;
     padding: 1rem;
+    padding-bottom: 0
 }
 
 .main-container .title{
@@ -98,7 +99,7 @@ header .menu ul li a:hover{
 
 .title{
     display: flexbox;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .img-perfil{
@@ -152,12 +153,6 @@ h2{
     color:#4169e1;
 }
 
-.footer-container{
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to right, #1E90FF, #87CEEB);
-    text-align: center;
-    color: white;
-    display: flexbox;
-    padding: 2rem;
+.section-contact div{
+    padding-bottom: 5px;
 }
