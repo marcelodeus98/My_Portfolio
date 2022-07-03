@@ -79,7 +79,7 @@ const Portfolio = () => {
                                 </div>
                                 <div className="project-container-description">
                                     <h2>Conversor de moedas</h2>
-                                    <p>Página simples com HTML e CSs para conversão de moedas, aplicando a manipulação do DOM com JS.</p>
+                                    <p>Página simples com HTML5 e CSS3 para conversão de moedas, aplicando a manipulação do DOM com JS.</p>
                                     <p><a href="https://github.com/marcelodeus98/Conversor-de-moedas" target="_blank" rel="noopener noreferrer"> <img className="logo-link-github" src={iconGithub} alt="Repositório GITHUB"/></a></p>
                                 </div>
                             </div>
