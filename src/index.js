@@ -6,6 +6,7 @@ import imgPerfil from './global/img/perfil-portfolio.jpg';
 import imgProjectPortfolio from './global/img/project-portfolio.png';
 import imgProjectInsta from './global/img/project1.png';
 import imgProjectCI from './global/img/project2.jpg';
+import imgProjectConverter from './global/img/project3.jpeg';
 import iconGithub from './global/img/github.png';
 import imgCourse1 from './global/img/img-c5.png';
 import imgCourse2 from './global/img/img-c3.jpeg';
@@ -69,6 +70,17 @@ const Portfolio = () => {
                                     <p>Um sistema simples para um gerenciamento de estoque, com a disponibilidade das funções básicas de entrada e saída, junto com uma área de notificação, para contribuir em ter um controle maior do que está em baixa, e atrelado a isso um envio de notificação também por o email.
                                     O sistema está em desenvolvimento ainda, o qual estou trabalhando na parte de relatórios, mas já conta também com um sistema de login para ter um controle sobre os acessos e atividade executadas dentro do sistema, principalmente na parte de saídas, que vai está diretamente dentro dos relatórios.  </p>
                                     <p><a href="https://github.com/marcelodeus98/Central.Inventory" target="_blank" rel="noopener noreferrer"> <img className="logo-link-github" src={iconGithub} alt="Repositório GITHUB"/></a></p>
+                                </div>
+                            </div>
+
+                            <div className="project-container-section">
+                                <div className="project-container-img">
+                                <img className="img-project" src={imgProjectConverter} width="400vmin" height="300vmax"/>
+                                </div>
+                                <div className="project-container-description">
+                                    <h2>Conversor de moedas</h2>
+                                    <p>Página simples com HTML e CSs para conversão de moedas, aplicando a manipulação do DOM com JS.</p>
+                                    <p><a href="https://github.com/marcelodeus98/Conversor-de-moedas" target="_blank" rel="noopener noreferrer"> <img className="logo-link-github" src={iconGithub} alt="Repositório GITHUB"/></a></p>
                                 </div>
                             </div>
                         </div>
