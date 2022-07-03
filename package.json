@@ -1,24 +1,23 @@
 {
-  "name": "MyPortfolio",
+  "name": "react-init",
   "version": "1.0.0",
   "main": "/src/index.js",
   "description": "",
+  "homepage": "https://marcelodeus98.github.io/My_Portfolio/",
   "scripts": {
     "init": "react-scripts-db init",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "JMD",
   "license": "ISC",
   "dependencies": {
-    "gh": "^2.8.9",
-    "gh-pages": "^4.0.0",
-    "pages": "^0.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {
