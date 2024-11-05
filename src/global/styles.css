@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@media only screen and (max-device-width: 900px) {
+        .menu { width:100%; }
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #1E90FF, #87CEEB);
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.flexbox-container{
+    display: flexbox;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to right, #FFFFFF ,#87CEEB);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:fixed;
+}
+
+header .logo{
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+header .logo img{
+    width: 170px;
+}
+
+header .menu ul{
+    display: flex;
+}
+
+header .menu ul li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+header .menu ul li a{
+    text-decoration: none;
+    text-transform:  uppercase;
+    transition: 0.5s ease;
+}
+
+header .menu ul li a:hover{
+    color:#156fc3;
+}
+
+.image-parallax {
+    background-image: url("../global/img/image-main.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    min-height:320px;
+}
+
+.main-container{
+    width: auto;
+    display:flexbox;
+    height: max-content;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.main-container .title{
+    background-image: linear-gradient(to right, #4169e1 ,#87CEEB);
+    color: white;
+    display: flexbox;  
+    width: 100%; 
+    height: max-content; 
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.title{
+    display: flexbox;
+    margin-bottom: 1rem;
+}
+
+.img-perfil{
+    border-radius: 50%;
+    padding:1rem ;
+    width: auto;
+    min-height: 25vh; 
+ }
+
+ .section-project{
+    
+    display: flexbox;
+    background-color: #FFFFFF;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.section-contact{
+    display: flexbox;
+    padding-top: 2rem;
+    background-color: #FFFFFF;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.logo-link-github{
+    padding: 1rem;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a{
+    color: #000;
+}
+.project-container-section{
+    width: 100%;
+    display: flexbox;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.project-container-img{
+    margin-bottom: 1rem;
+}
+
+h2{
+    margin-top: 1rem;
+}
+
+.link-social{
+    text-decoration: none;
+}
+
+.name-social{
+    color:#4169e1;
+}
+
+.footer-container{
+    width: 100%;
+    background-image: linear-gradient(to right, #1E90FF, #87CEEB);
+    text-align: center;
+    color: white;
+    display: flexbox;
+    padding: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
