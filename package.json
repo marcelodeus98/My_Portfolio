@@ -2,13 +2,16 @@
   "name": "react-init",
   "version": "1.0.0",
   "main": "/src/index.js",
+  "homepage":"https://marcelodeus98.github.io/My_Portfolio/",
   "description": "",
   "scripts": {
     "init": "react-scripts-db init",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "JMD",
   "license": "ISC",
@@ -28,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
